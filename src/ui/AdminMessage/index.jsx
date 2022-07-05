@@ -12,7 +12,7 @@ export default function AdminMessage({ className, message }) {
   ) {
     return null
   }
-  if (!message.message.includes('Welcome')) {
+  if (!message.message.includes('Thank you')) {
     return null
   }
   return (

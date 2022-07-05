@@ -1,6 +1,6 @@
 {
-  "name": "sendbird-uikit",
-  "version": "2.7.1",
+  "name": "bushwick-sendbird-uikit",
+  "version": "2.7.2",
   "description": "React based UI kit for sendbird",
   "main": "dist/cjs/index.js",
   "style": "dist/index.css",
@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:sendbird/sendbird-uikit-react-sources.git"
+    "url": "git+git@github.com:Bushwick-Digital/sendbird-uikit-react.git"
   },
   "author": "SendBird <support@sendbird.com>",
   "license": "SEE LICENSE IN LICENSE.md",
