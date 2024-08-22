@@ -12,7 +12,10 @@ export default function AdminMessage({ className, message }) {
   ) {
     return null
   }
-  if (!message.message.includes('Thank you')) {
+  if (
+    !message.message.includes('Thank you') &&
+    !message.message.includes('Congratulations')
+  ) {
     return null
   }
   return (
@@ -23,7 +26,7 @@ export default function AdminMessage({ className, message }) {
       ].join(' ')}
     >
       <Label
-        className="sendbird-admin-message__text pf-admin"
+        className='sendbird-admin-message__text pf-admin'
         type={LabelTypography.CAPTION_2}
         color={LabelColors.ONBACKGROUND_2}
       >
